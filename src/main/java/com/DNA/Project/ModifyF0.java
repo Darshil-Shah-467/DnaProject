@@ -14,7 +14,7 @@ public class ModifyF0 {
 	{
 		f0=f0.replace('0', '+');
 		f0=f0.replace('1', '*');
-		System.out.println(f0);
+		//System.out.println(f0);
 		return f0;
 	}
 	

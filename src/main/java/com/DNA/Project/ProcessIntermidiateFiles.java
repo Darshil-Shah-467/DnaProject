@@ -29,23 +29,23 @@ public class ProcessIntermidiateFiles {
 	
 	public void printStep(int step)
 	{
-		System.out.println("");
-		System.out.printf("Step %d : \n",step);
-		System.out.printf("order = %s \n", intermidiateFiles.getOrder());
-		System.out.printf("f0 : %s  \n",f0);
-		System.out.printf("f1 : %s  \n",intermidiateFiles.getF1());
-		System.out.printf("fr1a : %s  \n",intermidiateFiles.getFr1a());
-		System.out.printf("fr1b : %s  \n",intermidiateFiles.getFr1b());
-		System.out.printf("f2 : %s  \n",intermidiateFiles.getF2());
-		System.out.printf("fr2a : %s  \n",intermidiateFiles.getFr2a());
-		System.out.printf("fr2b : %s  \n",intermidiateFiles.getFr2b());
-		System.out.printf("fr3 : %s  \n",intermidiateFiles.getFr3());
-		System.out.printf("f1aa : %s  \n",f1aa);
-		System.out.printf("f1bb : %s  \n",f1bb);
-		System.out.printf("f2aa : %s  \n",f2aa);
-		System.out.printf("f2bb : %s  \n",f2bb);
-		System.out.printf("f3 : %s  \n",f3);
-		System.out.println("");
+//		System.out.println("");
+//		System.out.printf("Step %d : \n",step);
+//		System.out.printf("order = %s \n", intermidiateFiles.getOrder());
+//		System.out.printf("f0 : %s  \n",f0);
+//		System.out.printf("f1 : %s  \n",intermidiateFiles.getF1());
+//		System.out.printf("fr1a : %s  \n",intermidiateFiles.getFr1a());
+//		System.out.printf("fr1b : %s  \n",intermidiateFiles.getFr1b());
+//		System.out.printf("f2 : %s  \n",intermidiateFiles.getF2());
+//		System.out.printf("fr2a : %s  \n",intermidiateFiles.getFr2a());
+//		System.out.printf("fr2b : %s  \n",intermidiateFiles.getFr2b());
+//		System.out.printf("fr3 : %s  \n",intermidiateFiles.getFr3());
+//		System.out.printf("f1aa : %s  \n",f1aa);
+//		System.out.printf("f1bb : %s  \n",f1bb);
+//		System.out.printf("f2aa : %s  \n",f2aa);
+//		System.out.printf("f2bb : %s  \n",f2bb);
+//		System.out.printf("f3 : %s  \n",f3);
+//		System.out.println("");
 	}
 	
 	public void Step1() {

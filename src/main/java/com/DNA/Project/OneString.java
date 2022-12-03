@@ -61,17 +61,17 @@ public class OneString {
 		FinalCompressedFiles finalCompressedFiles = new FinalCompressedFiles();
 		itr=0;
 		finalCompressedFiles.setF0(Helper(str, itr));
-		System.out.println("F0 set....");
+		//System.out.println("F0 set....");
 		finalCompressedFiles.setF1aa(Helper(str, itr));
-		System.out.println("F1aa set....");
+		//System.out.println("F1aa set....");
 		finalCompressedFiles.setF1bb(Helper(str, itr));
-		System.out.println("F1bb set....");
+		//System.out.println("F1bb set....");
 		finalCompressedFiles.setF2aa(Helper(str, itr));
-		System.out.println("F2aa set....");
+		//System.out.println("F2aa set....");
 		finalCompressedFiles.setF2bb(Helper(str, itr));
-		System.out.println("F2bb set....");
+		//System.out.println("F2bb set....");
 		finalCompressedFiles.setF3(Helper(str, itr));
-		System.out.println("F3 set....");
+		//System.out.println("F3 set....");
 		return finalCompressedFiles;
 	}
 	
@@ -83,7 +83,7 @@ public class OneString {
 			s+=str.charAt(i);
 			i++;
 		}
-		System.out.println(s);
+		//System.out.println(s);
 		List<PairIntAndChar> lzList = new ArrayList<PairIntAndChar>();
 		int j=0;
 		while(j<s.length())
