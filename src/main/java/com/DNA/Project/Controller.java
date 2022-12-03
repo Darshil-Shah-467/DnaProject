@@ -54,14 +54,14 @@ public class Controller {
 
 		ModifyF0 modifyF0 = new ModifyF0();
 		finalFiles.setF0(modifyF0.ModifyForCompression(finalFiles.getF0()));
-		System.out.printf("f0 === %s \n", finalFiles.getF0());
+		//System.out.printf("f0 === %s \n", finalFiles.getF0());
 
 		/************************/
 		LZ77Compression lz77Compression = new LZ77Compression(finalFiles);
 		FinalCompressedFiles finalCompressedFiles = lz77Compression.ConvertAllFiles();
 		OneString oneString = new OneString();
 		String ans = oneString.ConvertForCompression(finalCompressedFiles);
-		System.out.println(ans);
+		//System.out.println(ans);
 		return ans;
 	}
 
@@ -76,7 +76,7 @@ public class Controller {
 
 		ModifyF0 modifyF0 = new ModifyF0();
 		finalFiles.setF0(modifyF0.ModifyForCompression(finalFiles.getF0()));
-		System.out.printf("f0 === %s \n", finalFiles.getF0());
+		//System.out.printf("f0 === %s \n", finalFiles.getF0());
 
 		/************************/
 		LZ77Compression lz77Compression = new LZ77Compression(finalFiles);
@@ -105,7 +105,7 @@ public class Controller {
 
 		ModifyF0 modifyF0 = new ModifyF0();
 		finalFilesAfterLzDecompression.setF0(modifyF0.ModifyForDecompression(finalFilesAfterLzDecompression.getF0()));
-		System.out.printf("f0 === %s \n", finalFilesAfterLzDecompression.getF0());
+		//System.out.printf("f0 === %s \n", finalFilesAfterLzDecompression.getF0());
 
 		/************************/
 		RegenerateOriginalDnaSequence regenerateOriginalDnaSequence = new RegenerateOriginalDnaSequence(
@@ -124,7 +124,7 @@ public class Controller {
 	
 	@PostMapping("/test/decompress")
 	public String TestDecompressDnaSequenceWithLz77(@RequestBody String inputString) {
-		System.out.printf("Decompressing.... %s \n",inputString);
+		System.out.printf("Decompressing.... \n");
 		OneString oneString = new OneString();
 		FinalCompressedFiles finalCompressedFiles = oneString.ConvertForDecompression(inputString);
 		LZ77Decompression lz77Decompression = new LZ77Decompression();
@@ -134,7 +134,7 @@ public class Controller {
 
 		ModifyF0 modifyF0 = new ModifyF0();
 		finalFilesAfterLzDecompression.setF0(modifyF0.ModifyForDecompression(finalFilesAfterLzDecompression.getF0()));
-		System.out.printf("f0 === %s \n", finalFilesAfterLzDecompression.getF0());
+		//System.out.printf("f0 === %s \n", finalFilesAfterLzDecompression.getF0());
 
 		/************************/
 		RegenerateOriginalDnaSequence regenerateOriginalDnaSequence = new RegenerateOriginalDnaSequence(
@@ -142,5 +142,6 @@ public class Controller {
 		String reConstructedDnaSequence = regenerateOriginalDnaSequence.ReverseAllSteps();
 		return reConstructedDnaSequence;
 	}
-
+	
+	
 }

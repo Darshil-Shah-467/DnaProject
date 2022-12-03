@@ -69,55 +69,55 @@ public class LZ77Compression {
 
 	private void printFile(FinalCompressedFiles finalCompressedFiles) {
 		// TODO Auto-generated method stub
-		System.out.println("Step 7 :");
-		System.out.printf("f0 : ");
-		for(int i=0;i<finalCompressedFiles.getF0().size();i++)
-		{
-			int i1 = finalCompressedFiles.getF0().get(i).getPrefix();
-			char c1 = finalCompressedFiles.getF0().get(i).getSuffix();
-			System.out.printf("{%d , %c} ", i1,c1);
-		}
-		System.out.println("");
-		System.out.printf("f1aa : ");
-		for(int i=0;i<finalCompressedFiles.getF1aa().size();i++)
-		{
-			int i1 = finalCompressedFiles.getF1aa().get(i).getPrefix();
-			char c1 = finalCompressedFiles.getF1aa().get(i).getSuffix();
-			System.out.printf("{%d , %c} ", i1,c1);
-		}
-		System.out.println("");
-		System.out.printf("f1bb : ");
-		for(int i=0;i<finalCompressedFiles.getF1bb().size();i++)
-		{
-			int i1 = finalCompressedFiles.getF1bb().get(i).getPrefix();
-			char c1 = finalCompressedFiles.getF1bb().get(i).getSuffix();
-			System.out.printf("{%d , %c} ", i1,c1);
-		}
-		System.out.println("");
-		System.out.printf("f2aa : ");
-		for(int i=0;i<finalCompressedFiles.getF2aa().size();i++)
-		{
-			int i1 = finalCompressedFiles.getF2aa().get(i).getPrefix();
-			char c1 = finalCompressedFiles.getF2aa().get(i).getSuffix();
-			System.out.printf("{%d , %c} ", i1,c1);
-		}
-		System.out.println("");
-		System.out.printf("f2bb : ");
-		for(int i=0;i<finalCompressedFiles.getF2bb().size();i++)
-		{
-			int i1 = finalCompressedFiles.getF2bb().get(i).getPrefix();
-			char c1 = finalCompressedFiles.getF2bb().get(i).getSuffix();
-			System.out.printf("{%d , %c} ", i1,c1);
-		}
-		System.out.println("");
-		System.out.printf("f3 : ");
-		for(int i=0;i<finalCompressedFiles.getF3().size();i++)
-		{
-			int i1 = finalCompressedFiles.getF3().get(i).getPrefix();
-			char c1 = finalCompressedFiles.getF3().get(i).getSuffix();
-			System.out.printf("{%d , %c} ", i1,c1);
-		}
-		System.out.println("");
+//		System.out.println("Step 7 :");
+//		System.out.printf("f0 : ");
+//		for(int i=0;i<finalCompressedFiles.getF0().size();i++)
+//		{
+//			int i1 = finalCompressedFiles.getF0().get(i).getPrefix();
+//			char c1 = finalCompressedFiles.getF0().get(i).getSuffix();
+//			System.out.printf("{%d , %c} ", i1,c1);
+//		}
+//		System.out.println("");
+//		System.out.printf("f1aa : ");
+//		for(int i=0;i<finalCompressedFiles.getF1aa().size();i++)
+//		{
+//			int i1 = finalCompressedFiles.getF1aa().get(i).getPrefix();
+//			char c1 = finalCompressedFiles.getF1aa().get(i).getSuffix();
+//			System.out.printf("{%d , %c} ", i1,c1);
+//		}
+//		System.out.println("");
+//		System.out.printf("f1bb : ");
+//		for(int i=0;i<finalCompressedFiles.getF1bb().size();i++)
+//		{
+//			int i1 = finalCompressedFiles.getF1bb().get(i).getPrefix();
+//			char c1 = finalCompressedFiles.getF1bb().get(i).getSuffix();
+//			System.out.printf("{%d , %c} ", i1,c1);
+//		}
+//		System.out.println("");
+//		System.out.printf("f2aa : ");
+//		for(int i=0;i<finalCompressedFiles.getF2aa().size();i++)
+//		{
+//			int i1 = finalCompressedFiles.getF2aa().get(i).getPrefix();
+//			char c1 = finalCompressedFiles.getF2aa().get(i).getSuffix();
+//			System.out.printf("{%d , %c} ", i1,c1);
+//		}
+//		System.out.println("");
+//		System.out.printf("f2bb : ");
+//		for(int i=0;i<finalCompressedFiles.getF2bb().size();i++)
+//		{
+//			int i1 = finalCompressedFiles.getF2bb().get(i).getPrefix();
+//			char c1 = finalCompressedFiles.getF2bb().get(i).getSuffix();
+//			System.out.printf("{%d , %c} ", i1,c1);
+//		}
+//		System.out.println("");
+//		System.out.printf("f3 : ");
+//		for(int i=0;i<finalCompressedFiles.getF3().size();i++)
+//		{
+//			int i1 = finalCompressedFiles.getF3().get(i).getPrefix();
+//			char c1 = finalCompressedFiles.getF3().get(i).getSuffix();
+//			System.out.printf("{%d , %c} ", i1,c1);
+//		}
+//		System.out.println("");
 	}
 
 }
