@@ -52,5 +52,6 @@ Visit the below links to download the executable files.
 - [Runnable Jar file](https://drive.google.com/file/d/1fKLcgmSCiZwQBMuTwJq3QvUH4ZswL0zR/view?usp=share_link)
 
 After downloading the file, double click on it to open and run the 
-executable file. 
+executable file. Note that the file requires Java Version 17 or higher to run. Refer below link to download Java. 
+[Java Latest Version](https://www.oracle.com/in/java/technologies/downloads/)
     
