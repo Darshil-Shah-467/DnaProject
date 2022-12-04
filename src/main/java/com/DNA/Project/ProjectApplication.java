@@ -173,7 +173,9 @@ public class ProjectApplication implements ActionListener{
 			
 			double outputLength = ans.length();
 			double inputLength = s1.length();
-			double compression = 1.0-outputLength/inputLength;
+			double compression = (1.0-outputLength/inputLength);
+			int x=(int) (compression*10000);
+			compression = ((double)x)/100.00;
 			System.out.printf("Input : %f Output : %f Compression : %f \n",inputLength,outputLength,compression);
 			
 			JFrame frameOutput  = new JFrame("Compression Result");
@@ -184,12 +186,12 @@ public class ProjectApplication implements ActionListener{
 			panelOutput.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
 			panelOutput.setLayout(new GridLayout(0,1));
 			
-			JLabel compressionRatio = new JLabel("Compression Ratio : "+Double.toString(compression));
+			JLabel compressionRatio = new JLabel("Compression : "+Double.toString(compression)+"%");
 			panelOutput.add(compressionRatio);
-			panelOutput.setBorder(BorderFactory.createEmptyBorder(30, 80, 10, 30));
+			panelOutput.setBorder(BorderFactory.createEmptyBorder(30, 60, 10, 30));
 			panelOutput.setLayout(new GridLayout(0,1));
 			
-			frameOutput.setSize(500,100);
+			frameOutput.setSize(500,200);
 			frameOutput.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			frameOutput.add(panelOutput);
 			frameOutput.setVisible(true);
