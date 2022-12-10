@@ -41,7 +41,7 @@ Below are the research papers we refered to, for the compression algorithm.
  - [“A compression method for DNA”, by Shengwang Du*, Junyi Li, Naizheng Bian](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0238220)
  - [“Improve the compression of bacterial DNA sequence” by Nour S. Bakr, Amr A. Sharawi](https://docs.google.com/document/d/19FmTQrywTWLhzBUxOcH2xYrWy3qLuSWVfYVLMinsNHo/edit#bookmark=id.guhy5ehqtu5z)
 
-We would like to Prof. Manish Gupta, our instructor for the course DNA Storage and Security (IT-495), at DA-IICT Gandhinagar, India, for giving us the opportunity to work on the project. 
+We would like to thank Prof. Manish Gupta, our instructor for the course DNA Storage and Security (IT-495), at DA-IICT Gandhinagar, India, for giving us the opportunity to work on the project. 
 
 
 ## Installation
